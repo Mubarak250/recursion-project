@@ -13,6 +13,7 @@ const fibArr = [0, 1];
 let fibNum = 2;
 
 function fibsRec(num) {
+  console.log('This was printed recursively');
   if (num === fibArr.length || num <= 2) {
     return fibArr;
   } else {
